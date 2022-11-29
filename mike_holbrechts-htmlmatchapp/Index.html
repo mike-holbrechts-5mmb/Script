@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamCars Enquete</title>
+    <meta name="description" content="een enquete over auto's">
+</head>
+<body>
+    <header>
+        <h1>Enquete DreamCar</h1>
+    </header>
+  <main>
+    <ul> <li><a href="#formulier">formulier</a></li>
+    </ul>
+<section id="intro">
+    <h2>introductie!</h2>
+    <p>Dit is een enquete voor droomauto's te zoeken</p>
+    <img src="images/logo's.jpg" alt="dit is een afbeelding van logo's"width="350">
+    
+</section>
+    <h3>medenmogelijk gemaakt door:</h3>
+    <ul>
+        <li>TSM</li>
+        <li>Multimedia </li>
+        <li> Vincent Vander Cruyssen</li>
+        <li>Mike Holbrechts</li>
+    </ul>
+    <h4>Best verkochte auto's (2022)</h4>
+    <ol>
+    <li>Citroën C3</li>
+    <li>Peugeot 3008</li>
+    <li>BMW X1</li>
+    <li>Peugeot 2008</li>
+    <li>Volvo XC40</li>
+    </ul>
+</section>
+</main>  
+<section id="formulier"></section>
+        <form action="">
+                <fieldset> <legend>Wat is uw leeftijd?</legend>
+                    <input type="number" name="leeftijd" placeholder="18"></fieldset>
+            <br>
+            <fieldset><legend>Wat is uw geslacht?</legend>
+                <input type="radio" name="aanwezig" value="Man" >Man
+                <input type="radio" name="aanwezig" value="Vrouw" >Vrouw
+                <input type="radio" name="aanwezig" value="Non-Binair" >Non-Binair
+                <input type="radio" name="aanwezig" value="Iets anders" >iets anders
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Heb je een auto?</legend>
+                <textarea name="toevoeging"  cols="30" rows="10" placeholder="Zo ja, welke?"></textarea>
+            </fieldset>
+            <br>
+            <fieldset><legend>Heb je vorige auto's gehad?</legend>
+            <textarea name="Vorige auto's"  cols="30" rows="10" placeholder="Zet hier je vorige auto's
+            "></textarea></fieldset>
+            <br>
+                <fieldset><legend>Welke kleur is het?</legend>
+                    <textarea name="welke kleur is het? cols="30" rows="10" placeholder="Zet hier de kleur van je auto"></textarea></fieldset>
+    
+                <br>
+                <fieldset>
+                    <legend>Stuur een foto van je auto</legend>
+                    <input type="file" id="myFile" name="filename">
+                </fieldset>
+                <br>
+                    <fieldset>
+                        <legend>Wat je droomauto type?</legend>
+                        <input type="radio" name="aanwezig" value="Sport" >Sport
+                        <input type="radio" name="aanwezig" value="SUV" >SUV
+                        <input type="radio" name="aanwezig" value="off road" >off road
+                        <input type="radio" name="aanwezig" value="Iets anders" >iets anders
+                    </fieldset>
+                    <br>
+                    <fieldset><legend>wat is je droomauto?</legend>
+                    <textarea name="Wat is je droomauto?"  cols="30" rows="10" placeholder="Vul hier je droomauto in"></textarea>
+                    </fieldset>
+                    <br>
+                    <fieldset><legend>In welke kleur?</legend>
+                    <textarea name="in welke kleur?"cols="30" rows="10" placeholder="Zet hier de kleur"></textarea></fieldset
+                    ><br>
+                    <fieldset><legend>Upload hier een foto van je droomauto</legend>
+                        <input type="file" id="myFile" name="filename">
+                    </fieldset>
+                        
+        <br>
+        <fieldset>
+            <legend>Hoe heeft u van ons gehoord?</legend>
+            <select name="enquete">
+                <option value="Vrienden">Vrienden/famillie/Kenissen?</option>
+                <option value="Zoekmachine">Zoekmachine</option>
+                <option value="Advertentie">Advertentie</option> 
+            </select>   
+        </fieldset> 
+        <br>
+            <button type="submit">Verstuur dit formulier</button>
+            
+            <button type="reset">reset</button>
+    </form>
+</section>
+<footer><p>Copyright Mike Holbrechts</p></footer>
+</body>
+<style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+</style>
+</html>
