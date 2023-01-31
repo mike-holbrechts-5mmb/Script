@@ -1,0 +1,98 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+header{
+    background-color: rgb(237, 237, 237);
+    height: 100% px;
+    width: 100%;
+    padding: 0px;
+    display: inline-flex;
+    
+}
+.extraicoontjes{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    width: 500px;
+    right: 10px;
+    position: absolute;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.top{
+    height: 100%px;
+    width: 100%px;
+}
+nav{
+    display: inline;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 35px;
+    width: 100%;
+    background-color: rgb(186, 186, 182);
+}
+.navi ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  .navi li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .navi a {
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+  }
+  .target {
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    z-index: -1;
+    transform: translateX(-60px);
+  }
+
+nav li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.schoen{
+    padding-top: 15px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
