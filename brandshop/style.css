@@ -162,4 +162,40 @@ figcaption {
     background-size: cover;
     background-position: right;
     width: 100%;
+    text-align: center;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+    color: #626262;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #000000;
 }
