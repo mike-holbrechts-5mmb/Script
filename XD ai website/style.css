@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    background-image: url('TigerMik3_modern_landing_page_ui_ux_uiux_working_with_ai_sleek__35e3882d-fb4c-4ce0-a284-6ed6cc640e41.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav li {
+    margin-right: 1em;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 1em;
+  }
+  
+  .cta {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: ;
+  }
+  
+  .cta:hover {
+    background-color: #000000;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons li {
+    margin: 0 0.5em;
+  }
+  
+  .social-icons a {
+    color: #ff0000;
+  }
+  
+  .social-icons a:hover {
+    color: #62ff00;
+  }
+  
+  footer{ 
+    background: #000000;
+  }

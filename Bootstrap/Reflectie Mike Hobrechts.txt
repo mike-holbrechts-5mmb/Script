@@ -1,0 +1,3 @@
+1. Ai (bootstrap) is makkelijk om snel een degelijke webstite te maken.
+2. als je het zelf doet is het beter en kan je meer.
+3. Het is handig omdat je geen css nodig hebt en dat automatisch gaat.
