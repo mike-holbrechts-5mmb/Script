@@ -1,9 +1,9 @@
-
 :root {
-	--main-color: #F50057;
+	--main-color: #d60d3e;
 	--secondary-color: #1E1E1E;
 	--font-family: Arial, sans-serif;
 }
+
 
 
 body {
@@ -52,19 +52,18 @@ main {
 	margin: 0 auto;
 	padding: 2rem;
 	align-items: center;
-	
+
 
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2rem;
 }
 
-img{
-	width: 100%;
-}
+
+
 h1 {
 	font-size: 3rem;
 	text-align: center;
@@ -95,77 +94,143 @@ h1 {
 
 
 footer {
-background-color: var(--secondary-color);
-color: #FFFFFF;
-padding: 2rem;
-text-align: center;
+	background-color: var(--secondary-color);
+	color: #FFFFFF;
+	padding: 2rem;
+	text-align: center;
 }
 
 footer nav ul {
-display: flex;
-justify-content: center;
-margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
 }
 
 footer nav li {
-margin-left: 2rem;
+	margin-left: 2rem;
 }
 
 footer nav a {
-font-size: 1.2rem;
-font-weight: bold;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 .social-media {
-display: flex;
-justify-content: center;
-margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
 }
 
 .social-media a {
-margin: 0 1rem;
+	margin: 0 1rem;
 }
 
 .social-media img {
-height: 2rem;
+	height: 2rem;
 }
 
 footer p {
-font-size: 0.8rem;
-margin-top: 1rem;
+	font-size: 0.8rem;
+	margin-top: 1rem;
 }
 
 
-@media screen and (max-width: 768px) {
-header {
-flex-direction: column;
-align-items: flex-start;
-}
-nav ul {
-flex-direction: column;
-margin-top: 1rem;
-}
-nav li {
-margin: 1rem 0;
-}
-main {
-padding: 1rem;
-}
-h1 {
-font-size: 2rem;
-}
-.gallery {
-grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.artist h2 {
-font-size: 1.2rem;
-}
-.social-media img {
-height: 1.5rem;
-}
+@media screen and (max-width: 750px) {
+	header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	nav ul {
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	nav li {
+		margin: 1rem 0;
+	}
+
+	main {
+		padding: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	.artist h2 {
+		font-size: 1.2rem;
+	}
+
+	.social-media img {
+		height: 1.5rem;
+	}
 }
 
-img{
-	width: 500px;
+img {
+	width: 100%;
 	justify-content: center;
+}
+
+#fotomrt img {
+	width: 33%;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+header input#burger {
+	display: none;
+}
+
+header label[for="burger"] {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	display: none;
+	width: 100%;
+	padding: 1rem 1ch;
+	background-color: var(--bgc-02);
+	text-align: right;
+	cursor: pointer;
+}
+
+header label[for="burger"] i {
+	margin: 0;
+	font-size: 1.25rem;
+	color: #324495;
+}
+
+@media (width <=750px) {
+	header label[for="burger"] {
+		display: block;
+	}
+
+	header nav ul {
+		position: fixed;
+		z-index: 3;
+		top: 3rem;
+		right: 0;
+		display: none;
+		padding-right: 1ch;
+		width: 100%;
+		background-color: var(--bgc-02);
+		text-align: right;
+		user-select: none;
+
+	}
+
+	header input#burger:checked+label[for="burger"]+nav ul {
+		display: flex;
+		flex-direction: column;
+	}
 }
