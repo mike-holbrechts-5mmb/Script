@@ -211,6 +211,10 @@ header label[for="burger"] i {
 }
 
 @media (width <=750px) {
+
+	main .grid-container {
+		grid-template-columns: 1fr 1fr;
+	}
 	header label[for="burger"] {
 		display: block;
 	}
